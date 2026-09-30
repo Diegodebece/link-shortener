@@ -1,8 +1,8 @@
 namespace LinkShortener.Application.Common.Exceptions;
 
-public class ApplicationException : Exception
+public class UseCaseException : Exception
 {
-    public ApplicationException(string message)
+    public UseCaseException(string message)
         : base(message)
     {
     }
