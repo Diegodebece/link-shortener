@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkShortener.Domain", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkShortener.Application", "src\LinkShortener.Application\LinkShortener.Application.csproj", "{66ED218D-44BD-4E37-B837-5AE894351F77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkShortener.Infrastructure", "src\LinkShortener.Infrastructure\LinkShortener.Infrastructure.csproj", "{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{66ED218D-44BD-4E37-B837-5AE894351F77}.Release|x64.Build.0 = Release|Any CPU
 		{66ED218D-44BD-4E37-B837-5AE894351F77}.Release|x86.ActiveCfg = Release|Any CPU
 		{66ED218D-44BD-4E37-B837-5AE894351F77}.Release|x86.Build.0 = Release|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Debug|x64.Build.0 = Debug|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Debug|x86.Build.0 = Debug|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Release|x64.ActiveCfg = Release|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Release|x64.Build.0 = Release|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Release|x86.ActiveCfg = Release|Any CPU
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1649E31F-072C-4B65-A6C0-D30865D88A7F} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{66ED218D-44BD-4E37-B837-5AE894351F77} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{CA55FAA7-EBD7-4ADE-991A-4D0ACAC7AC6A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
