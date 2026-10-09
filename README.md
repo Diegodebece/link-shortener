@@ -1,5 +1,7 @@
 # Link Shortener API
 
+Frontend made by Claude here: https://link-shortener-frontend-tau.vercel.app/
+
 **Technologies used:** ASP.NET Core, C#, .NET 10, Entity Framework Core, PostgreSQL, Neon, Docker, Render, Clean Architecture, Minimal APIs.
 
 Link Shortener API is a backend project for creating shortened URLs, redirecting users to the original URL, and tracking basic click statistics.
