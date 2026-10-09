@@ -16,6 +16,8 @@ Health check:
 
 https://link-shortener-efvn.onrender.com/health
 
+> The API runs on Render's free tier, so it sleeps after ~15 minutes without traffic. The first request after that can take up to a minute.
+
 ## Features
 
 - Create short links from long URLs
@@ -27,6 +29,7 @@ https://link-shortener-efvn.onrender.com/health
 - Health check endpoint
 - Docker support
 - Deployed to Render
+- CORS policy for a browser frontend (configurable origins)
 
 ## Architecture
 
@@ -115,11 +118,14 @@ GET http://localhost:8080/health
 
 The API is deployed with Docker on Render and uses Neon PostgreSQL as the cloud database.
 
-Environment variable required:
+Environment variables:
 
 ```text
-ConnectionStrings__DefaultConnection
+ConnectionStrings__DefaultConnection   # required
+Cors__AllowedOrigins                   # frontend origin(s), comma-separated
 ```
+
+`Cors__AllowedOrigins` lists the sites allowed to call the API from a browser, for example `https://my-frontend.vercel.app`. Wildcard subdomains such as `https://*.vercel.app` are supported. In development, `http://localhost:5500` and `http://localhost:3000` are allowed.
 
 ## Notes
 
